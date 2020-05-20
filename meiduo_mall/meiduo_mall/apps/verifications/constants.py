@@ -1,0 +1,1 @@
+SMS_CODE_REDIS_EXPIRE = 300   # 短信验证码有效期 单位秒SMS_CODE_FLAG_EXPIRE = 60   # 短信发送标识有效期 单位秒IMAGE_CODE_REDIS_EXPIRES = 30
