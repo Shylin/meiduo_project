@@ -5,6 +5,7 @@ from meiduo_mall.libs.yuntongxun.sms import CCP
 
 @celery_app.task(name='send_sms_code')  # 只有用此装饰器装饰过的函数celery才能识别
 def send_sms_code(mobile, sms_code):
+
     """
     发短信的异步任务
     :param mobile: 要收短信的手机号
